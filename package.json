@@ -1,0 +1,14 @@
+{
+  "name": "live-chat-ai",
+  "version": "1.0.0",
+  "description": "Live chat web app with an AI-powered backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

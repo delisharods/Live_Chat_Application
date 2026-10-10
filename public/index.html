@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Chat Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="chat-container">
+
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="avatar">S</div>
+      <div class="header-info">
+        <h2>Live Chat</h2>
+        <span>Online</span>
+      </div>
+    </div>
+
+    <!-- Message area -->
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <!-- Input section -->
+    <form class="chat-input" id="chatForm">
+      <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off">
+      <button type="submit" id="sendBtn">Send</button>
+    </form>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
